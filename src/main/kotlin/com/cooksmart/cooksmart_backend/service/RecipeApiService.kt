@@ -1,4 +1,6 @@
-package com.cooksmart.service
+package com.cooksmart.cooksmart_backend.service
+
+
 
 import com.cooksmart.model.api.RecipeResponse
 import kotlinx.coroutines.Dispatchers
@@ -10,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-// Retrofit interface para Spoonacular
+
 interface SpoonacularApi {
     @GET("recipes/findByIngredients")
     suspend fun getRecipesByIngredients(

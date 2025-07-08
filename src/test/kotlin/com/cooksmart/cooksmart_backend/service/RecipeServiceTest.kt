@@ -1,4 +1,4 @@
-package com.cooksmart
+package com.cooksmart.cooksmart_backend.service
 
 import com.cooksmart.model.Recipe
 import com.cooksmart.repository.RecipeRepository

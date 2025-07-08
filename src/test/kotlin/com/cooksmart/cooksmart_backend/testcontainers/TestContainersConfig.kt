@@ -1,4 +1,4 @@
-package com.cooksmart.testcontainers
+package com.cooksmart.cooksmart_backend.testcontainers
 
 import org.junit.jupiter.api.AfterAll
 import org.junit.jupiter.api.BeforeAll

@@ -1,4 +1,4 @@
-package com.cooksmart
+package com.cooksmart.cooksmart_backend.controller
 
 import com.cooksmart.controller.UserController
 import com.cooksmart.model.User

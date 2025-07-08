@@ -1,8 +1,8 @@
 package com.cooksmart.controller
 
+import com.cooksmart.cooksmart_backend.service.RecipeApiService
 import com.cooksmart.model.Recipe
 import com.cooksmart.model.api.RecipeResponse
-import com.cooksmart.service.RecipeApiService
 import com.cooksmart.service.RecipeService
 import kotlinx.coroutines.runBlocking
 import org.springframework.web.bind.annotation.*
