@@ -25,4 +25,6 @@ class UserService(private val userRepository: UserRepository) {
     }
 
     fun deleteUser(id: Long) = userRepository.deleteById(id)
+
+    fun findByEmail(email: String): User? = userRepository.findByEmail(email)
 }

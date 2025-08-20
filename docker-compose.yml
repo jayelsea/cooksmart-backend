@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: cooksmart
+      POSTGRES_USER: cooksmart
+      POSTGRES_PASSWORD: cooksmart
+    ports:
+      - "5433:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+volumes:
+  db_data:
